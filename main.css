@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game-status-indicator {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.game-container {
+  margin: 80px 10%;
+  width: 80%;
+  height: 70vh;
+  background: aliceblue;
+}
+
+.cell-row {
+  display: flex;
+  width: 100%;
+  height: 33.3%;
+}
+
+.cell {
+  width: 33.3%;
+  height: 100%;
+  border: 1px dashed darkred;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 10rem;
+}
+
+.game-player-menu {
+  width: 80%;
+  margin: 80px 10%;
+}
+
+.game-player-menu-section {
+  padding: 10px;
+}
+
+.game-player-menu-section > label {
+  display: block;
+}
+
+.game-player-menu-section > input {
+  display: block;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.row.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 80%;
+  margin: 1rem 10%;
+  padding: 1rem;
+}
+
+#winning-player-announcement {
+  text-align: center;
+}
